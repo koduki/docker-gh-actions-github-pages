@@ -13,8 +13,8 @@ rm -rf ${GIT_ID}.github.io
 git clone ${REMOTE_REPOS}
 
 echo "Deploy ${SRC_DIR} to ${DEPLOY_DIR}"
-ls -l 
 rm -rf ${GIT_ID}.github.io/${DEPLOY_DIR}
+mkdir -p ${GIT_ID}.github.io/${DEPLOY_DIR}
 mv ${SRC_DIR} ${GIT_ID}.github.io/${DEPLOY_DIR}
 
 echo "Push"
