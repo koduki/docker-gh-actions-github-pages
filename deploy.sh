@@ -3,9 +3,10 @@
 #GIT_ID=koduki
 #SRC_DIR=_book
 #DEPLOY_DIR=docs/book-introduction-of-jfr/site/
+#COMMIT_MSG="Publish site"
+
 REMOTE_REPOS="https://x-access-token:${PERSONAL_TOKEN}@github.com/${GIT_ID}/${GIT_ID}.github.io.git"
 
-COMMIT_MSG="Publish site"
 
 echo "Clone ${GIT_ID}.github.io"
 rm -rf ${GIT_ID}.github.io
